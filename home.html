@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    body{
+      background-color: #F3F3F3;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .heading{
+      background-color: #283747;
+      color: white;
+      height: 70px;
+    }
+    .heading h1{
+      padding: 15px 15px 15px 30px;
+    }
+    .navbar{
+      background-color: #DE354C;
+    }
+    .navbar li{
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar a{
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px;
+      transition: background-color 0.5s;
+    }
+    .navbar a:hover{
+      background-color: #962333;
+      transition: background-color 0.5s;
+    }
+    .main-content{
+      width: 80%;
+      background-color: teal;
+      float: left;
+      min-height: 79vh;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: justify;
+      color: rgb(243, 243, 243);
+      line-height: 23px;
+    }
+    .main-content h2{
+      padding: 20px 0;
+      color: white;
+      text-shadow: 2px 2px #DE354C;
+    }
+    .sidebar{
+      width: 19%;
+      float: right;
+      background-color: rgb(150, 150, 150);
+      min-height: 79vh;
+    }
+    .sidebar li{
+      list-style-type: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar a{
+      text-decoration: none;
+      color: grey;
+      display: block;
+      padding: 15px;
+      text-align: center;
+      color: white;
+    }
+    .sidebar a:hover{
+      background-color: #283747;
+      color: white;
+      transition: background-color 0.5s;
+    }
+    .footer{
+      clear: both;
+      background-color: #283747;
+      color: white;
+      height: 30px;
+    }
+    .footer p{
+      width: fit-content;
+      margin: 0 auto;
+      padding: 5px;
+    }
+    @media screen and (max-width:800px) {
+      .main-content{
+        float: none;
+        width: 100%;
+        min-height: fit-content;
+      }
+      .sidebar{
+        float: none;
+        width: 100%;
+        min-height: fit-content;
+      }
+      .heading h1{
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>Shrey Kanani</h1>
+    </div>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Feature</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <h2>This is main content</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, impedit? Corrupti minima maxime eveniet adipisci expedita nihil alias, quam iure molestiae possimus quisquam vitae quia recusandae ducimus perferendis reprehenderit provident distinctio ex officia, error quaerat dolorum quasi. Odit accusantium, sit aut quaerat rem tenetur dolores rerum nostrum nemo unde ad reprehenderit vero est iusto labore doloribus totam neque, nisi, sapiente similique delectus illo architecto quos. Eveniet, commodi natus necessitatibus iste magni ea nisi provident. Veritatis nisi eius, explicabo natus dolore laborum? Dolorum dignissimos, incidunt dolores est nostrum vel culpa maxime consectetur, nemo fugiat voluptatibus distinctio earum ratione ipsa eius? Recusandae.</p>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Feature</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer"><p>Shrey Kanani 2021 @ All copyright reserved.</p></div>
+  </div>
+</body>
+</html>
